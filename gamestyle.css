@@ -3,10 +3,15 @@
 body {
   background-color: #f7f7f7;
   font-family: Arial;
+  width: 400px;
+}
+
+.instructions {
+  border-bottom: 1px solid #222;
 }
 
 .question-area {
-  margin-top: 10px;
+  margin-top: 20px;
   width: 250px;
 }
 
