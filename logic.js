@@ -64,7 +64,6 @@ $( document ).ready(function() {
   // Check whether the answer is correct or not.
   function verifyAnswer(id) {
     let selection = choices[id];
-    console.log(selection);
     if (selection.value === matches[currentQuestion]) {
       $("#"+id).addClass("correct");
     }
