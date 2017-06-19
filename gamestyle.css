@@ -1,0 +1,32 @@
+/* Style for the page. */
+
+body {
+  background-color: #f7f7f7;
+  font-family: Arial;
+}
+
+.question-area {
+  margin-top: 10px;
+  width: 250px;
+}
+
+.answer {
+  display: inline-block;
+  padding: 25px 0px;
+  height: 25px;
+  width: 100px;
+  border: 1px solid #222;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.correct {
+  background-color: #b3ffaf;
+}
+
+.incorrect {
+  background-color: #ffa09c;
+}
