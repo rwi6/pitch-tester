@@ -20,6 +20,7 @@ $( document ).ready(function() {
     ["C", "C#", "D", "E\u266D", "E", "F", "F#", "G", "A\u266D", "A", "B\u266D", "B"];
   // Constant array of the possible white notes.
   const answerWhiteVals = ["C", "D", "E", "F", "G", "A", "B"];
+
   // Array representing the choices for the current question.
   const choices = [
     {id: 0},
