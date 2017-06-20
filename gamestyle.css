@@ -4,6 +4,35 @@ body {
   background-color: #f7f7f7;
   font-family: Arial;
   width: 400px;
+  padding: 15px;
+}
+
+.question-type-selector {
+  padding-bottom: 15px;
+}
+
+.toggle-choice {
+  display: inline-block;
+  border: 1px solid #222;
+  width: 65px;
+  height: 22px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.choice-1 {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.choice-2 {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.selected-choice {
+  background-color: #4374c1;
+  color: #f7f7f7;
 }
 
 .instructions {
@@ -13,6 +42,10 @@ body {
 .question-area {
   margin-top: 20px;
   width: 250px;
+}
+
+.question-image {
+  height: 100px;
 }
 
 .answer {
@@ -34,4 +67,8 @@ body {
 
 .incorrect {
   background-color: #ffa09c;
+}
+
+.hidden {
+  display: none;
 }
