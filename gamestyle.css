@@ -1,11 +1,4 @@
-/* Style for the page. */
-
-body {
-  background-color: #f7f7f7;
-  font-family: Arial;
-  width: 400px;
-  padding: 15px;
-}
+/* Style for the testing pages. */
 
 .question-type-selector {
   padding-bottom: 15px;
@@ -40,8 +33,10 @@ body {
 }
 
 .question-area {
+  display: inline-block;
+  vertical-align: top;
   margin-top: 20px;
-  width: 250px;
+  width: 320px;
 }
 
 .question-image {
@@ -71,4 +66,14 @@ body {
 
 .hidden {
   display: none;
+}
+
+.streak-count-area {
+  display: inline-block;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.streak-count {
+  font-size: 22px;
 }
