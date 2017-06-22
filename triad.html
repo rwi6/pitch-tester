@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Triad Tester</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="triadData.js"></script>
+    <script src="logic.js"></script>
+    <link href="style.css" rel=stylesheet>
+    <link href="gamestyle.css" rel=stylesheet>
+  </head>
+  <body>
+    <h1>Triad Tester</h1>
+    <div class="question-type-selector">
+      Question Type: 
+      <div class="toggle-choice choice-1 selected-choice">Audio</div><!--
+   --><div class="toggle-choice choice-2">Image</div>
+    </div>
+    <div class="instructions">
+      <div class="audio-instructions">
+        Listen to the triad and pick the correct answer!
+        <br/>
+        You can use this recording of middle-C as a reference.
+        <audio controls>
+          <source src="audio/1.wav" type="audio/wav">
+          Your browser does not support the audio tag.
+        </audio>
+      </div>
+      <div class="image-instructions hidden">
+        Read the triad and pick the correct answer!
+        <br/>
+        Remember:
+        <br/>
+        Treble clef spaces - <b>FACE</b>
+        <br/>
+        Bass clef spaces - <b>A</b>ll <b>C</b>ows <b>E</b>at <b>G</b>rass.
+      </div>
+    </div>
+    <div class="question-area">
+      <div class="question">
+        <audio class="question-audio" controls>
+          <source src="" type="audio/wav">
+          Your browser does not support the audio tag.
+        </audio>
+        <img class="question-image hidden" src="">
+      </div>
+      <div class="answers">
+        <div class="answer" id="0">1</div>
+        <div class="answer" id="1">2</div>
+        <div class="answer" id="2">3</div>
+        <div class="answer" id="3">4</div>
+      </div>
+    </div>
+    <div class="streak-count-area">
+      <div>Streak</div>
+      <div class="streak-count">0</div>
+    </div>
+  </body>
+</html>
