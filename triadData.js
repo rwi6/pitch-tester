@@ -39,8 +39,8 @@
   };
 
   const possibleTriadAnswers = {
-    major: ["C major", "C# major", "D major", "E\u266D major", "E major", "F major", "F# major",
-      "G major", "A\u266D major", "A major", "B\u266D major", "B major"],
+    major: ["C major", "D\u266D major", "D major", "E\u266D major", "E major", "F major",
+      "F# major", "G major", "A\u266D major", "A major", "B\u266D major", "B major"],
     minor: ["C minor", "C# minor", "D minor", "E\u266D minor", "E minor", "F minor", "F# minor",
       "G minor", "G# minor", "A minor", "B\u266D minor", "B minor"]
   };

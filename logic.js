@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 
+  // Mapping to the folders where relevant assets are located.
   const categoryMap = {
     PITCH: {
       audio_folder: "audio",
