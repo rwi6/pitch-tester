@@ -26,7 +26,6 @@ $( document ).ready(function() {
   // Number of questions answered correctly in a row.
   let streakCount = 0;
   let matches = {};
- console.log("time to sup");
   setup();
 
   //Initial setup of the data.
@@ -55,9 +54,7 @@ $( document ).ready(function() {
       questions = triadQuestions.slice();
     }
 
-    console.log("about to shuf");
     shuffle(questions);
-    console.log("done shuff");
   }
 
   //Create and display the next question.

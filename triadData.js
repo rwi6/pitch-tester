@@ -52,13 +52,9 @@
   const category = "TRIAD";
   createTriadMatches();
   createTriadAnswersAndQuestion();
-  console.log(triadAnswers);
-  console.log(triadQuestions);
-  console.log("crod");
 
   // Create the matches object for triad answers and questions.
   function createTriadMatches() {
-    console.log("mot");
     for (let key in possibleTriadQuestions) {
       if (possibleTriadQuestions.hasOwnProperty(key)) {
         let answersArray = possibleTriadAnswers[key.substring(0, 5)];
@@ -69,14 +65,13 @@
     }
   }
 
+  // Create the arrays of questions and answers.
   function createTriadAnswersAndQuestion() {
-    console.log("hie");
     for (let key in possibleTriadQuestions) {
       if (possibleTriadQuestions.hasOwnProperty(key)) {
         triadQuestions = triadQuestions.concat(possibleTriadQuestions[key]);
       }
     }
-    console.log("help");
     for (let key in possibleTriadAnswers) {
       if (possibleTriadAnswers.hasOwnProperty(key)) {
         triadAnswers = triadAnswers.concat(possibleTriadAnswers[key]);
